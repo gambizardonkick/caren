@@ -3,10 +3,10 @@
 <html lang="en">
 
 <head>
-    <title>AZISAI | Roobet Leaderboard</title>
+    <title>CarenBabaknia | Roobet Leaderboard</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Exclusive wager races on Roobet for code AZISAI07219!">
+    <meta name="description" content="Exclusive wager races on Roobet for code ContactCaren!">
     <meta property="og:image"
         content="https://ws.bma.gg/api/screenshot?url=https%3A%2F%2FErnTmz.gg%2Fleaderboard%2Froobet&w=1280&h=720&z=1&d=0&f=false&darkMode=false">
     <link rel="icon" type="image/jpg" href="/assets/logo.png">
@@ -246,15 +246,15 @@
                 <span class="close">&times;</span>
             </div>
             <div class="modal-body">
-                <p>このリーダーボードではRTPによってカウント率が変化します:</p>
+                <p>Your wagers on Roobet will count towards the leaderboard at the following weights:</p>
                 <ul>
-                    <li>- RTP97％以下のゲームは賭け額の100％が適応
+                    <li>- Games with an RTP of 97% or less will contribute 100%
                     </li>
-                    <li>- RTP97～98％のゲームは賭け額の50％が適応</li>
-                    <li>- RTP98％以上のゲームは賭け額の10％が適応
+                    <li>- Games with an RTP above 97% will contribute 50%</li>
+                    <li>- Games with an RTP of 98% and above will contribute 10%
                     </li>
                 </ul>
-                <p><strong>※</strong> Diceは適応外 </p>
+                <p><strong>※</strong>- Only Slots and Housegames count (dice is excluded) </p>
             </div>
         </div>
     </div>
@@ -271,7 +271,7 @@
         <nav>
             <div class="logo-title">
                 <img src="/assets/logo.png" alt="Site logo" class="logo">
-                <h1 class="title">AZISAI</h1>
+                <h1 class="title">CarenBabaknia</h1>
             </div>
             <ul class="nav-links">
                 
@@ -281,10 +281,10 @@
     </header>
     <div class="toggle-images" style="margin-top: 50px;">
         <img class="game-image roobet-image" id="roobetImage" src="/assets/monthly1.png"
-            style="cursor: pointer;opacity: 0.3;" onclick="window.location.href='/leaderboard/roobet'">
+            style="cursor: pointer;opacity: 1;" onclick="window.location.href='/leaderboard/roobet'">
         <div class="vertical-line"></div>
         <img class="game-image roobet-image" id="roobetImage" src="/assets/weekly1.png"
-            style="cursor: pointer;opacity: 1;" onclick="window.location.href='/leaderboard/roobetweekly'">
+            style="cursor: pointer;opacity: 0.3;" onclick="window.location.href='/leaderboard/roobetweekly'">
     </div>
     <br>
     <div data-v-1d580398="" data-v-e4097664="" id="appContent">
@@ -292,11 +292,11 @@
             <div data-v-1d580398="" class="row text">
                 <span data-v-1d580398="" class="title">
                     <div data-v-1d580398="" class="price-wrapper glow">
-                        $ 100
-                    </div> FREE SPIN CODE <span class="glow">AZISAI07219</span> REWARDS!
+                        $ 150
+                    </div> WEEKLY CODE <span class="glow">ContactCaren</span> Leaderboard!
                 </span>
                 <span data-v-1d580398="" class="subtitle" style="color: #FFF;">Every <b>BET</b> on Roobet under Code
-                    <b>AZISAI07219</b>
+                    <b>ContactCaren</b>
                     counts towards your score. <br>
                     <i>The leaderboard updates every 15 minutes.</i><br>
                     <div class="warning-message">
@@ -316,43 +316,37 @@
                         </button>
                     </div>
                 </span>
-<!-- Countdown + Reward Card Section -->
-<div style="display: flex; flex-direction: column; align-items: center; padding: 30px 0;">
-  <!-- Countdown -->
-  <div class="countdown">
-    <span class="title"><span class="glow" style="color: #00eaff">ENDING</span> IN </span>
-    <span class="subtitle" id="countdown">Loading...</span>
-  </div>
+<div class="css-esk2ah">
+  <div class="css-2w2ovy">
+    <!-- Top 3 Player Cards -->
+    <div class="css-gqrafh" id="top3-cards">
+      <!-- Top 3 inserted via JS -->
+    </div>
 
-  <!-- Reward Card -->
-  <div style="margin-top: 20px; background: linear-gradient(145deg, #0a0f1e, #111827); border: 1px solid #00eaff33; border-radius: 16px; padding: 25px; width: 300px; text-align: center; box-shadow: 0 0 20px #00eaff33;">
-    <div style="font-weight: bold; font-size: 18px; color: #ddd;">Wager:</div>
-    <div style="font-size: 20px; margin-bottom: 10px;" class="glow">$5,000+</div>
-
-    <div style="font-weight: bold; font-size: 18px; color: #ddd;">Reward:</div>
-    <div style="font-size: 20px; margin-bottom: 10px;" class="glow">100$ FREE SPINS</div>
-
-    <div id="usernames" style="margin-top: 15px; font-size: 16px; line-height: 1.8; color: #e0e0e0;">
-      Loading users...
+    <!-- Countdown Timer -->
+    <div class="countdown">
+      <div>
+        <span class="title"><span class="glow" style="color: #FFF">ENDING</span> IN </span>
+        <span class="subtitle" id="countdown">X Days XX:XX:XX</span>
+      </div>
     </div>
   </div>
+  <!-- Player Rows (4-10) -->
+  <div id="leaderboard-rows"></div>
 </div>
 
+
+<!-- Player Rows (4-10 and beyond) -->
+<div id="leaderboard-rows"></div>
     <div data-v-5867ad71="" class="row inner-footer">
         <div data-v-5867ad71="" class="col-5">
             <div data-v-5867ad71="" class="content">
                 <div data-v-5867ad71="" class="company"></div><br data-v-5867ad71=""><span data-v-5867ad71=""
-                    class="copyright">AZISAI<br data-v-5867ad71=""> All Right Reserved 2025.</span>
+                    class="copyright">CarenBabaknia<br data-v-5867ad71=""> All Right Reserved 2025.</span>
             </div>
         </div>
 
-        <div data-v-5867ad71="" class="col">
-            <span data-v-5867ad71="" class="title">Info</span>
-            <a data-v-5867ad71="" href="/" class=""><span data-v-5867ad71="" class="subtitle">Terms of
-                    Service</span></a>
-            <a data-v-5867ad71="" href="/" class=""><span data-v-5867ad71="" class="subtitle">Privacy
-                    Policy</span></a>
-        </div>
+
         <style>
   .footer-socials {
     display: flex;
@@ -386,19 +380,27 @@
 <div class="col">
     <span class="title">Socials</span>
     <div class="footer-socials">
-        <a href="https://kick.com/azisai0721" target="_blank" class="social">
+        <a href="https://kick.com/CarenBabaknia" target="_blank" class="social">
             <img src="/assets/kick.png" alt="Kick Logo" class="social-img">
             <span>Kick</span>
         </a>
-        <a href="https://x.com/RATOR205" target="_blank" class="social">
+        <a href="https://twitter.com/carenbabaknia5" target="_blank" class="social">
             <img src="/assets/x.png" alt="X Logo" class="social-img">
             <span>X</span>
         </a>
-        <a href="https://youtube.com/@azisai-onkazi-kirinuki" target="_blank" class="social">
+        <a href="https://instagram.com/carenview" target="_blank" class="social">
+            <img src="/assets/instagram.png" alt="YouTube Logo" class="social-img">
+            <span>Instagram</span>
+        </a>
+        <a href="https://tiktok.com/@carenbabaknia" target="_blank" class="social">
+            <img src="/assets/tiktok.png" alt="YouTube Logo" class="social-img">
+            <span>TikTok</span>
+        </a>
+        <a href="https://youtube.com/carenbabaknia" target="_blank" class="social">
             <img src="/assets/youtube.png" alt="YouTube Logo" class="social-img">
             <span>YouTube</span>
         </a>
-        <a href="https://discord.gg/azisai" target="_blank" class="social">
+        <a href="https://discord.gg/caren" target="_blank" class="social">
             <img src="/assets/discord.png" alt="Discord Logo" class="social-img">
             <span>Discord</span>
         </a>
@@ -450,49 +452,109 @@
 <script src="/js/particles.js"></script>
 <script src="/js/toast.js"></script>
 <script>
-const API_URL = 'https://azisaiweekly-upnb.onrender.com/leaderboard/top14';
+const API_URL = 'https://azisailbdata-q469.onrender.com/leaderboard/top14';
+const roobetLogo = '/assets/roobetlogo.png';
+const rewards = [50, 75, 25]; // Only first 10 rewarded
 
-// Base JST start = 2025-05-15T00:00:01+09:00 == 2025-05-14T15:00:01Z
-const baseStartUTC = new Date("2025-05-14T15:00:01Z"); // Z means UTC
+const top3Glows = ['0 0 40px #C0C0C0', '0 0 40px #FFD700', '0 0 40px #CD7F32'];
 
-function updateCountdown() {
+// Weekly countdown -> next Sunday 23:59:59 UTC
+function updateWeeklyCountdown() {
   const el = document.getElementById("countdown");
-  const now = new Date(); // current UTC time
+  const now = new Date();
 
-  const weekMs = 7 * 24 * 60 * 60 * 1000;
-  const timePassed = now - baseStartUTC;
-  const weeksPassed = Math.floor(timePassed / weekMs);
-  const nextResetUTC = new Date(baseStartUTC.getTime() + (weeksPassed + 1) * weekMs);
+  // How many days until this week's Sunday (0 = Sunday)
+  let daysUntilSunday = (7 - now.getUTCDay()) % 7;
 
-  const diff = nextResetUTC - now;
+  // Candidate target: this week's Sunday at 23:59:59 UTC
+  let target = new Date(Date.UTC(
+    now.getUTCFullYear(),
+    now.getUTCMonth(),
+    now.getUTCDate() + daysUntilSunday,
+    23, 59, 59
+  ));
+
+  // If the candidate target is in the past (we're already past Sun 23:59:59),
+  // move it forward by 7 days to next Sunday.
+  if (target.getTime() <= now.getTime()) {
+    target = new Date(target.getTime() + 7 * 24 * 60 * 60 * 1000);
+  }
+
+  const diff = target - now;
+
   if (diff <= 0) {
     el.textContent = "Ended";
     return;
   }
 
-  const d = Math.floor(diff / (1000 * 60 * 60 * 24));
-  const h = Math.floor((diff / (1000 * 60 * 60)) % 24);
-  const m = Math.floor((diff / (1000 * 60)) % 60);
-  const s = Math.floor((diff / 1000) % 60);
-  el.textContent = `${d}d ${h}h ${m}m ${s}s`;
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+  const minutes = Math.floor((diff / (1000 * 60)) % 60);
+  const seconds = Math.floor((diff / 1000) % 60);
+
+  el.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 }
 
-setInterval(updateCountdown, 1000);
-updateCountdown();
+// update every second
+setInterval(updateWeeklyCountdown, 1000);
+updateWeeklyCountdown();
 
-// Load winners with wager >= 5000
-async function loadWinners() {
-  const container = document.getElementById("usernames");
-  try {
-    const res = await fetch(API_URL);
-    const data = await res.json();
-    const winners = data.filter(u => u.wagered >= 5000).map(u => u.username);
-    container.innerHTML = winners.length
-      ? winners.join("<br>")
-      : `<span style="color:#999">No users yet</span>`;
-  } catch {
-    container.textContent = "Failed to load users.";
-  }
+
+
+async function loadLeaderboard() {
+  const res = await fetch(API_URL);
+  const data = await res.json();
+
+  const top3Container = document.querySelector(".css-gqrafh");
+  const rowsContainer = document.getElementById("leaderboard-rows");
+
+  // Clear previous data
+  top3Container.innerHTML = '';
+  rowsContainer.innerHTML = '';
+
+  data.forEach((entry, index) => {
+    const place = index + 1;
+    const reward = index < rewards.length ? `$ ${rewards[index]}` : '$ 0';
+    const wagered = `$ ${Number(entry.wagered).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    const username = entry.username;
+
+    if (index < 3) {
+      const card = document.createElement('div');
+      card.className = 'css-jehefp';
+      card.style.boxShadow = top3Glows[index];
+      card.style.position = 'relative';
+      if (index === 1) {
+        card.style.transformOrigin = 'center center';
+        card.style.transform = 'translateY(25px) scale(1.2)';
+      }
+      if (index === 2) card.style.transform = 'translateY(25px)';
+      card.innerHTML = `
+        <img src="${roobetLogo}" style="width: 96px; height: auto; border-radius: 12px;">
+        <div class="css-hca0vm"><span class="css-15a1lq3" style="font-weight:bold;">${username}</span></div>
+        <div class="css-7ahevu ejrykqo0"><span class="css-1vqddgv">Wagered: </span>
+          <span class="css-18icuxn"><div class="css-1y0ox2o"><span class="css-114dvlx">${wagered}</span></div></span>
+        </div>
+        <span class="css-v4675v"><div class="css-1y0ox2o"><span class="css-114dvlx glow">${reward}</span></div></span>`;
+      top3Container.appendChild(card);
+    } else {
+      const row = document.createElement('div');
+      row.className = 'row list row-cols-5';
+      row.setAttribute('data-v-1d580398', '');
+      row.innerHTML = `
+        <div class="hide-mobile col-2"><b style="font-size: 18px;">#${place}</b></div>
+        <div class="col-5">
+          <img src="${roobetLogo}" width="22" style="margin-right: 8px;">
+          <span style="font-weight:bold; font-size: 16px;">${username}</span>
+        </div>
+        <div class="col-2">
+          <div class="price-wrapper glow" style="font-weight:bold; font-size: 15px;">${reward}</div>
+        </div>
+        <div class="col-3">
+          <div class="price-wrapper" style="color: #FFF; font-weight:bold; font-size: 15px;">${wagered}</div>
+        </div>`;
+      rowsContainer.appendChild(row);
+    }
+  });
 }
-loadWinners();
+loadLeaderboard();
 </script>
