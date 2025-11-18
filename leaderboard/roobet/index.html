@@ -246,15 +246,15 @@
                 <span class="close">&times;</span>
             </div>
             <div class="modal-body">
-                <p>このリーダーボードではRTPによってカウント率が変化します:</p>
+                <p>Your wagers on Roobet will count towards the leaderboard at the following weights:</p>
                 <ul>
-                    <li>- RTP97％以下のゲームは賭け額の100％が適応
+                    <li>- Games with an RTP of 97% or less will contribute 100%
                     </li>
-                    <li>- RTP97～98％のゲームは賭け額の50％が適応</li>
-                    <li>- RTP98％以上のゲームは賭け額の10％が適応
+                    <li>- Games with an RTP above 97% will contribute 50%</li>
+                    <li>- Games with an RTP of 98% and above will contribute 10%
                     </li>
                 </ul>
-                <p><strong>※</strong> Diceは適応外 </p>
+                <p><strong>※</strong>- Only Slots and Housegames count (dice is excluded) </p>
             </div>
         </div>
     </div>
@@ -454,7 +454,7 @@
 <script>
 const API_URL = 'https://azisailbdata-q469.onrender.com/leaderboard/top14';
 const roobetLogo = '/assets/roobetlogo.png';
-const rewards = [150, 50, 50]; // Only first 10 rewarded
+const rewards = [50, 150, 50]; // Only first 10 rewarded
 
 const top3Glows = ['0 0 40px #C0C0C0', '0 0 40px #FFD700', '0 0 40px #CD7F32'];
 
